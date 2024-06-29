@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+#header{
+    color: white;
+    background-color: #08182B;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+}
+
+.box{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    clip-path: circle(50% at 50% 50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    clip-path: circle(50% at 50% 50%); 
+    height: 100px;
+    width: 100px;
+    object-fit: cover;    
+}
+.box:hover{
+ cursor: grab;
+ background-color: #08182B;
+
+}
+#score{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 60px;
+}
+
+#yourScore,#computerScore{
+    font-size: 30px;
+}
+
+#message-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+#msg{
+    background-color: #08182B;
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    /* display: inline; */
+    width: 10vw;
+    border-radius: 10px;
+    text-align: center;
+
+}
